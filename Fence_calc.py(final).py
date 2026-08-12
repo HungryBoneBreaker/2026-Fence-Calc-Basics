@@ -35,7 +35,7 @@ while keep_going == "":
 
     # Ask if the user wanted to keep going or not
     print()
-    keep_going = input("press 'Enter' key tp keep going or any other key to quit")
+    keep_going = input("press 'Enter' key to keep going or type anything then press 'Enter' to quit")
     print()
 
 print("Thank you for using my amazing Fencing cost per meter Calculator :)")
