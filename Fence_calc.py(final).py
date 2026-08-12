@@ -18,12 +18,12 @@ def num_check(question):
             print(error)
 # Main routine starts here...
 
-keep_going = "Enter"
+keep_going = ""
 while keep_going == "":
     # Ask the user for both width and length and $ per meter of fence
     width = num_check("Width:")
     Length = num_check("Length:")
-    cost = num_check("cost per meter:")
+    cost = num_check("cost per meter:$")
 
     # calculate perimeter and cost ($) per meter
     perimeter = 2 * (width + Length)
@@ -31,10 +31,11 @@ while keep_going == "":
 
     # Display output
     print(f" your area will be...{perimeter} units")
-    print(f"The cost of your fencing will be{cost}USD")
+    print(f"The cost of your fencing will be {cost}:.2f")
 
     # Ask if the user wanted to keep going or not
+    print()
     keep_going = input("press 'Enter' key tp keep going or any other key to quit")
-
+    print()
 
 print("Thank you for using my amazing Fencing cost per meter Calculator :)")
