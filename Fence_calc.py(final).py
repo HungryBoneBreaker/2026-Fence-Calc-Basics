@@ -31,7 +31,7 @@ while keep_going == "":
 
     # Display output
     print(f" your area will be...{perimeter} units")
-    print(f"The cost of your fencing will be {cost}:.2f")
+    print(f"The cost of your fencing will be ${cost:.2f}")
 
     # Ask if the user wanted to keep going or not
     print()
